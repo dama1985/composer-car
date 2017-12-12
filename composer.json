@@ -1,0 +1,19 @@
+{
+    "name": "dm/www",
+    "description": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "test",
+            "email": "66268540@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+   "autoload": {
+        "psr-4": {
+            "Hello\\": "src/",
+            "Ford\\Escape\\": "src/Ford/Escape"
+        }
+    }
+}
